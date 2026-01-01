@@ -8,8 +8,3 @@ def ft_seed_inventory(seeds, quantity, unity):
         print(f"{seeds} seeds: covers {quantity} square meters")
     else:
         print("error")
-
-
-ft_seed_inventory("tomato", 15, "packets")
-ft_seed_inventory("carrot", 8, "grams")
-ft_seed_inventory("lettuce", 12, "area")

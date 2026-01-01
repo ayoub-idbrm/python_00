@@ -1,9 +1,10 @@
-def ft_count_harvest_recursive(n):
+def recursion(n):
     if n == 0:
         return
-    ft_count_harvest_recursive(n - 1)
+    recursion(n - 1)
     print(f"Day {n}")
 
 
-ft_count_harvest_recursive(int(input("days until harvest: ")))
-print("Harvest time!")
+def ft_count_harvest_recursive():
+    recursion(int(input("Days until harvest: ")))
+    print("Harvest time!")
